@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <p>Hello, {greeting}!   Phone Number:{phone}</p>
+            <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        <lightning-input label="Phone Number" value={phone} onchange={bind}></lightning-input>
+        </div>
+    </lightning-card>
+</template>
